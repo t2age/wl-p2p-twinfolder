@@ -1,0 +1,7 @@
+Howto create Screenshot Anime Sequence...
+
+https://github.com/t2age/wl-screen-manga
+
+Very simple, very easy...
+
+Works well even on a small RaspberryPI!
