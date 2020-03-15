@@ -54,4 +54,9 @@ Tutorial HowTo
 <img src="img/p2p-twinfolder-017.png" width=640px;/>
   
 ---
-
+  
+**TEXT Version here**    
+https://github.com/t2age/wl-p2p-twinfolder/tree/master/doc  
+  
+  
+.
