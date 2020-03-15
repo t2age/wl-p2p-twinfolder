@@ -58,5 +58,9 @@ Tutorial HowTo
 **TEXT Version here**    
 https://github.com/t2age/wl-p2p-twinfolder/tree/master/doc  
   
+**Screenshot Animation Frames here**  
+Sequence of screenshots in animetion style: play it at a frame/second...  
+https://github.com/t2age/wl-p2p-twinfolder/tree/master/screen-manga-anime
+  
   
 .
