@@ -3,7 +3,7 @@ SO, THE GOAL WAS TO DIVIDE INTO EASY STEPS...
   
 [DOWNLOADS]  
 1.0.  
-Download the Syncthing Binary Package from Syncthing website, for the platform that you are going to use to build (x86, ARM, etc...). Then, extracti it...  
+Download the Syncthing Binary Package from Syncthing website, for the platform that you are going to use to build (x86, ARM, etc...). Then, extract it...  
 Example: if using a PC x86 to run the twinfolder, then download the Syncthing for PC x86, and so on...  
 URLS:  
 https://github.com/syncthing/syncthing/releases/tag/v1.3.4  
@@ -23,24 +23,24 @@ Copy the binary file "syncthing", from the Syncthing Binary Package folder to th
 Enter the folder wl-twin-folder with a terminal shell  
   
 2.1. Run  
-./createTwinConfigs.sh  
+  ./createTwinConfigs.sh  
   
 2.2. Run   
-python  addDevice-UNO.py  
+  python  addDevice-UNO.py  
   
 2.3. Run  
-python  addDevice-DUO.py  
+  python  addDevice-DUO.py  
   
 2.4. Run  
-python  addFolder-UNO.py  
+  python  addFolder-UNO.py  
   
 2.5. Run  
-./buildTwinFolders.sh  
+  ./buildTwinFolders.sh  
   
   
 [PACK THE TWIN FOLDERS]  
 3.0. Run  
-./compressTwinFolders.sh  
+  ./compressTwinFolders.sh  
 The resulting files will be inside the "build/" folder...  
   
 3.1.  
@@ -67,8 +67,8 @@ inside the twin-YYY folder...
 Move the twin-XXX folders to the place where you want to run,  
 extract then and run:  
   
-./runUNO.sh		#to run the UNO side  
-./runDUO.sh		#to run the DUO side  
+  ./runUNO.sh		#to run the UNO side  
+  ./runDUO.sh		#to run the DUO side  
   
 4.1.  
 On the UNO side, the shared folder is:  
@@ -81,6 +81,6 @@ USERHOMEFOLDER/TwinFolder
 [REBUILD/RESTART BUILDING PROCESS]  
 X.0.  
 To repeat the building process:  
-./cleanTwinConfigs.sh  
-./cleanBuild.sh  
+  ./cleanTwinConfigs.sh  
+  ./cleanBuild.sh  
   
