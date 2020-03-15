@@ -76,6 +76,9 @@ inside the twin-YYY folder...
   
 **[RUN THE TWINS]**  
 4.0.  
+After the creation of the twins, and before running them, it is important to have the time (system clock) on the machines set correctly!  
+If the O.S. time is not correct Syncthing will have trouble to sync the folders...  
+  
 Move the twin-XXX folders to the place where you want to run,  
 extract then and run:  
   
